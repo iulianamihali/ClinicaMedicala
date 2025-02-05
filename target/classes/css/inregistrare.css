@@ -1,0 +1,19 @@
+#butonTrimite{
+    -fx-background-color:  #EABFBF;
+    -fx-background-radius: 15;
+    -fx-effect: dropshadow(gaussian, rgba(0, 0, 0, 0.2), 5, 0.3, 0, 2); /* Umbră subtila */
+
+}
+#butonTrimite:hover{
+    -fx-background-color: #D89A9A;
+}
+#butonInapoi{
+    -fx-background-color:  #90EE90;
+    -fx-border-radius: 50;
+    -fx-background-radius: 50;
+    -fx-effect: dropshadow(gaussian, rgba(0, 0, 0, 0.2), 5, 0.3, 0, 2); /* Umbră subtila */
+
+}
+#butonInapoi:hover{
+    -fx-background-color: #77D477;
+}

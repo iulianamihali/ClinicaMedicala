@@ -1,0 +1,68 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.Button?>
+<?import javafx.scene.control.Label?>
+<?import javafx.scene.image.Image?>
+<?import javafx.scene.image.ImageView?>
+<?import javafx.scene.layout.AnchorPane?>
+<?import javafx.scene.text.Font?>
+
+<AnchorPane fx:id="ghid" maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="500.0" prefWidth="750.0" stylesheets="@../css/ghidPacient.css" xmlns="http://javafx.com/javafx/23.0.1" xmlns:fx="http://javafx.com/fxml/1" fx:controller="controllers.GhidPacientController">
+   <children>
+      <Label fx:id="label" layoutX="22.0" layoutY="93.0" text="Cum să soliciți o programare?" />
+      <Label fx:id="label" layoutX="22.0" layoutY="183.0" prefHeight="40.0" prefWidth="271.0" text="Cum să vezi programările tale?" />
+      <Label fx:id="label" layoutX="22.0" layoutY="277.0" prefHeight="40.0" prefWidth="342.0" text="Cum să accesezi istoricul consultațiilor?" />
+      <Label fx:id="label" layoutX="23.0" layoutY="387.0" prefHeight="40.0" prefWidth="304.0" text="Cum să modifici detaliile personale?" />
+      <Button fx:id="butonInapoi" layoutX="23.0" layoutY="14.0" mnemonicParsing="false" onAction="#clickInapoi" text="&lt;  Inapoi">
+         <font>
+            <Font name="Times New Roman" size="18.0" />
+         </font>
+      </Button>
+      <Label fx:id="subLabel" layoutX="23.0" layoutY="120.0" prefHeight="58.0" prefWidth="616.0" text="Accesează secțiunea 'Medici' din meniu, alege doctorul dorit, selectează o dată și o oră disponibile, apoi apasă pe butonul 'Programează-te'. Programarea va fi salvată automat.">
+         <font>
+            <Font name="Times New Roman" size="12.0" />
+         </font>
+      </Label>
+      <Label fx:id="subLabel" layoutX="23.0" layoutY="213.0" prefHeight="57.0" prefWidth="616.0" text="Programările pentru ziua de azi sunt afișate automat. Selectează o altă dată pentru a vedea mai multe programări." wrapText="true">
+         <font>
+            <Font name="Times New Roman" size="12.0" />
+         </font>
+      </Label>
+      <Label fx:id="subLabel" layoutX="23.0" layoutY="307.0" prefHeight="77.0" prefWidth="616.0" text="Accesează secțiunea 'Istoric' din meniu pentru a vedea toate consultațiile finalizate. Apasă de două ori pe o consultație pentru a vizualiza detalii precum diagnosticul, tratamentul sau rezultatele analizelor." wrapText="true">
+         <font>
+            <Font name="Times New Roman" size="12.0" />
+         </font>
+      </Label>
+      <Label fx:id="subLabel" layoutX="23.0" layoutY="419.0" prefHeight="58.0" prefWidth="616.0" text="Modifică detaliile tale personale, cum ar fi numele, adresa sau numărul de telefon, accesând secțiunea 'Setări' din meniu." wrapText="true">
+         <font>
+            <Font name="Times New Roman" size="12.0" />
+         </font>
+      </Label>
+      <Label fx:id="titlu" layoutX="184.0" prefHeight="21.0" prefWidth="524.0" text="Pași simpli pentru a folosi aplicația" />
+      <ImageView fitHeight="40.0" fitWidth="37.0" layoutX="584.0" layoutY="12.0" pickOnBounds="true" preserveRatio="true">
+         <image>
+            <Image url="@../img/light.png" />
+         </image>
+      </ImageView>
+      <ImageView fitHeight="28.0" fitWidth="27.0" layoutX="286.0" layoutY="96.0" pickOnBounds="true" preserveRatio="true">
+         <image>
+            <Image url="@../img/addApoint.png" />
+         </image>
+      </ImageView>
+      <ImageView fitHeight="28.0" fitWidth="25.0" layoutX="293.0" layoutY="191.0" pickOnBounds="true" preserveRatio="true">
+         <image>
+            <Image url="@../img/viewAppointments.png" />
+         </image>
+      </ImageView>
+      <ImageView fitHeight="28.0" fitWidth="25.0" layoutX="366.0" layoutY="282.0" pickOnBounds="true" preserveRatio="true">
+         <image>
+            <Image url="@../img/istoricLaptop.png" />
+         </image>
+      </ImageView>
+      <ImageView fitHeight="28.0" fitWidth="27.0" layoutX="339.0" layoutY="395.0" pickOnBounds="true" preserveRatio="true">
+         <image>
+            <Image url="@../img/userEdit.png" />
+         </image>
+      </ImageView>
+   </children>
+</AnchorPane>

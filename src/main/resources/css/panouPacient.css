@@ -1,0 +1,60 @@
+#tabelPacient
+{
+    -fx-padding: 0;
+    -fx-border-radius: 8px;
+    -fx-border-color: linear-gradient(to bottom right, #c48484, #a06060);
+    -fx-effect: dropshadow(gaussian, rgba(0, 0, 0, 0.2), 5, 0.3, 0, 2); /* Umbră subtila */
+}
+#tabelPacient .column-header{
+    -fx-background-color: linear-gradient(to bottom right, #c48484, #a06060);
+    -fx-background-color-insets: 0 0 0 0;
+}
+#datePicker
+{
+    -fx-border-color: linear-gradient(to bottom right, #c48484, #a06060);
+
+}
+
+#helpLabel
+{
+    -fx-font-size: 18px;
+    -fx-font-weight: bold;
+    -fx-text-fill: #2c3e50;
+    -fx-padding: 10px 0;
+}
+
+#subtitlu
+{
+    -fx-font-size: 14px;
+    -fx-font-weight: bold;
+    -fx-text-fill: #2c3e50;
+    -fx-padding: 10px 0;
+}
+
+#butonGhid{
+    -fx-background-color:  #90EE90;
+    -fx-border-radius: 50;
+    -fx-background-radius: 50;
+    -fx-effect: dropshadow(gaussian, rgba(0, 0, 0, 0.2), 5, 0.3, 0, 2); /* Umbră subtila */
+    -fx-font-size: 14px;
+    -fx-font-weight: bold;
+    -fx-text-fill: #2c3e50;
+
+}
+#butonGhid:hover{
+    -fx-background-color: #77D477;
+}
+
+#textProgramari, #data
+{
+    -fx-font-size: 14px;
+    -fx-font-weight: bold;
+    -fx-text-fill: #2c3e50;
+    -fx-padding: 10px 0;
+}
+
+#chenar
+{
+    -fx-effect: dropshadow(gaussian, rgba(0, 0, 0, 0.2), 5, 0.3, 0, 2); /* Umbră subtila */
+
+}

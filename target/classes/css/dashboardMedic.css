@@ -1,0 +1,86 @@
+#butonPanouMedic{
+    -fx-border-color: #000000 ;
+    -fx-border-width: .3px;
+    -fx-background-color: #A4C8E1;
+    -fx-effect: dropshadow(gaussian, rgba(0, 0, 0, 0.2), 5, 0.3, 0, 2); /* Umbră subtila */
+
+}
+
+#butonPanouMedic:hover{
+    -fx-background-color: #72A0C1;
+}
+
+#butonPacientiMedic{
+    -fx-border-color: #000000 ;
+    -fx-border-width: .3px;
+    -fx-background-color: #A4C8E1;
+    -fx-effect: dropshadow(gaussian, rgba(0, 0, 0, 0.2), 5, 0.3, 0, 2); /* Umbră subtila */
+
+}
+#butonPacientiMedic:hover{
+    -fx-background-color: #72A0C1;
+}
+#butonIstoricMedic{
+    -fx-border-color: #000000 ;
+    -fx-border-width: .3px;
+    -fx-background-color: #A4C8E1;
+    -fx-effect: dropshadow(gaussian, rgba(0, 0, 0, 0.2), 5, 0.3, 0, 2); /* Umbră subtila */
+
+}
+#butonIstoricMedic:hover{
+    -fx-background-color: #72A0C1;
+}
+#butonProfilMedic{
+    -fx-border-color: #000000 ;
+    -fx-border-width: .3px;
+    -fx-background-color: #A4C8E1;
+    -fx-effect: dropshadow(gaussian, rgba(0, 0, 0, 0.2), 5, 0.3, 0, 2); /* Umbră subtila */
+
+}
+#butonProfilMedic:hover{
+    -fx-background-color: #72A0C1;
+}
+#butonDeconectareMedic{
+    -fx-border-color: #000000 ;
+    -fx-border-width: .3px;
+    -fx-background-color: #A4C8E1;
+    -fx-effect: dropshadow(gaussian, rgba(0, 0, 0, 0.2), 5, 0.3, 0, 2); /* Umbră subtila */
+
+}
+#butonDeconectareMedic:hover{
+    -fx-background-color: #72A0C1;
+}
+
+#tabelMedic
+{
+    -fx-padding: 0;
+    -fx-border-radius: 8px;
+    -fx-border-color: linear-gradient(to bottom right, #188ba7, #306090);
+    -fx-effect: dropshadow(gaussian, rgba(0, 0, 0, 0.2), 5, 0.3, 0, 2); /* Umbră subtila */
+
+}
+#tabelMedic .column-header{
+    -fx-background-color: linear-gradient(to bottom right, #188ba7, #306090);
+    -fx-background-color-insets: 0 0 0 0;
+}
+
+#programariCountMedic{
+    -fx-background-color: linear-gradient(to bottom right, #188ba7, #306090);
+    -fx-background-radius: 15;
+    -fx-effect: dropshadow(gaussian, rgba(0, 0, 0, 0.2), 5, 0.3, 0, 2); /* Umbră subtila */
+
+}
+
+#infoMedic{
+    -fx-background-color: linear-gradient(to bottom right, #188ba7, #306090);
+    -fx-background-radius: 15;
+    -fx-effect: dropshadow(gaussian, rgba(0, 0, 0, 0.2), 5, 0.3, 0, 2); /* Umbră subtila */
+
+
+
+}
+#numeClinica{
+    -fx-background-color: linear-gradient(to bottom right, #188ba7, #306090);
+
+}
+

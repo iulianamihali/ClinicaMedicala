@@ -1,0 +1,41 @@
+#nume, #prenume, #telefon, #email, #data, #ora{
+
+    -fx-background-radius: 45;
+    -fx-border-radius: 45; /* Rotunjim bordura */
+    -fx-effect: dropshadow(gaussian, rgba(0, 0, 0, 0.2), 5, 0.3, 0, 2); /* Umbră subtila */
+}
+#creareProgramare{
+    -fx-background-color: #e6f7ff
+}
+
+
+#butonProgramare, #butonAnulare{
+    -fx-background-color:  #A4C8E1;
+    -fx-background-radius: 45;
+    -fx-effect: dropshadow(gaussian, rgba(0, 0, 0, 0.2), 5, 0.3, 0, 2); /* Umbră subtila */
+}
+#butonProgramare:hover{
+    -fx-background-color: #72A0C1;
+}
+#butonAnulare:hover{
+    -fx-background-color: #72A0C1;
+}
+#data
+{
+    -fx-font-family: "Arial";
+    -fx-font-size: 14px;
+    -fx-background-color: #f2f2f2;
+    -fx-border-color: transparent;
+    -fx-border-radius: 10px;
+    -fx-padding: 5px;
+
+}
+#oreDisponibile{
+    -fx-background-color: #f2f2f2;
+    -fx-border-color: transparent;
+    -fx-border-radius: 20px;
+    -fx-background-radius: 20px;
+    -fx-padding: 5px;
+    -fx-font-family: "Arial";
+    -fx-font-size: 14px;
+}

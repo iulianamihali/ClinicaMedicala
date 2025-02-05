@@ -1,0 +1,63 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.Button?>
+<?import javafx.scene.control.ComboBox?>
+<?import javafx.scene.control.Label?>
+<?import javafx.scene.control.TextArea?>
+<?import javafx.scene.image.Image?>
+<?import javafx.scene.image.ImageView?>
+<?import javafx.scene.layout.AnchorPane?>
+<?import javafx.scene.text.Font?>
+
+
+<AnchorPane fx:id="scenaRecenzii" prefHeight="500.0" prefWidth="750.0" stylesheets="@../css/scenaRecenzii.css" xmlns="http://javafx.com/javafx/23.0.1" xmlns:fx="http://javafx.com/fxml/1" fx:controller="controllers.ScenaRecenziiController">
+   <children>
+      <Label fx:id="titlu" layoutX="248.0" layoutY="40.0" prefHeight="35.0" prefWidth="226.0" text="Cum a fost experiența ta?">
+         <font>
+            <Font name="Times New Roman Bold" size="18.0" />
+         </font>
+      </Label>
+      <Label fx:id="titlu" layoutX="248.0" layoutY="75.0" prefHeight="35.0" prefWidth="291.0" text="Lasă o recenzie despre vizita ta!">
+         <font>
+            <Font name="Times New Roman Bold" size="18.0" />
+         </font>
+      </Label>
+      <TextArea fx:id="parereTextArea" layoutX="248.0" layoutY="170.0" prefHeight="110.0" prefWidth="370.0" wrapText="true" />
+      <Label fx:id="titlu1" layoutX="85.0" layoutY="170.0" prefHeight="20.0" prefWidth="100.0" text="Părerea ta:">
+         <font>
+            <Font name="Times New Roman" size="19.0" />
+         </font>
+      </Label>
+      <ImageView fitHeight="43.0" fitWidth="45.0" layoutX="31.0" layoutY="157.0" pickOnBounds="true" preserveRatio="true">
+         <image>
+            <Image url="@../img/opinieRecenzie.png" />
+         </image>
+      </ImageView>
+      <ImageView fitHeight="155.0" fitWidth="162.0" layoutX="541.0" layoutY="-2.0" pickOnBounds="true" preserveRatio="true">
+         <image>
+            <Image url="@../img/backgroundRecenzie.png" />
+         </image>
+      </ImageView>
+      <ImageView fitHeight="53.0" fitWidth="71.0" layoutX="26.0" layoutY="331.0" pickOnBounds="true" preserveRatio="true">
+         <image>
+            <Image url="@../img/recenzieNota.png" />
+         </image>
+      </ImageView>
+      <Label fx:id="titlu11" layoutX="85.0" layoutY="347.0" prefHeight="20.0" prefWidth="100.0" text="   Nota:">
+         <font>
+            <Font name="Times New Roman" size="19.0" />
+         </font>
+      </Label>
+      <ComboBox fx:id="comboNota" layoutX="248.0" layoutY="340.0" prefHeight="35.0" prefWidth="170.0" promptText="Alege Nota" />
+      <Button fx:id="butonSalvare" layoutX="386.0" layoutY="435.0" mnemonicParsing="false" onAction="#clickSalvare" prefHeight="31.0" prefWidth="114.0" text="Salvare">
+         <font>
+            <Font name="Times New Roman Bold" size="17.0" />
+         </font>
+      </Button>
+      <Button fx:id="butonAnulare" layoutX="248.0" layoutY="435.0" mnemonicParsing="false" onAction="#clickAnulare" prefHeight="31.0" prefWidth="114.0" text="Anulare">
+         <font>
+            <Font name="Times New Roman Bold" size="17.0" />
+         </font>
+      </Button>
+   </children>
+</AnchorPane>

@@ -1,0 +1,24 @@
+#tabelPacienti{
+    -fx-padding: 0;
+    -fx-border-radius: 8px;
+    -fx-border-color: linear-gradient(to bottom right, #188ba7, #306090);
+    -fx-effect: dropshadow(gaussian, rgba(0, 0, 0, 0.2), 5, 0.3, 0, 2); /* Umbră subtila */
+
+}
+
+#tabelPacienti .column-header{
+    -fx-background-color: linear-gradient(to bottom right, #188ba7, #306090);
+    -fx-background-color-insets: 0 0 0 0;
+}
+
+#chenar{
+    -fx-background-color: linear-gradient(to bottom right, #188ba7, #306090);
+    -fx-background-radius: 15;
+    -fx-effect: dropshadow(gaussian, rgba(0, 0, 0, 0.2), 5, 0.3, 0, 2); /* Umbră subtila */
+}
+
+#cautareField
+{
+    -fx-effect: dropshadow(gaussian, rgba(0, 0, 0, 0.2), 5, 0.3, 0, 2); /* Umbră subtila */
+    -fx-background-radius: 45;
+}

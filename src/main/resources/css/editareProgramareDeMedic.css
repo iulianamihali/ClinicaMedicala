@@ -1,0 +1,36 @@
+#butonAnulare {
+    -fx-border-width: .3px;
+    -fx-background-color: linear-gradient(to bottom right, #188ba7, #306090);
+    -fx-background-radius: 15;
+    -fx-effect: dropshadow(gaussian, rgba(0, 0, 0, 0.2), 5, 0.3, 0, 2); /* Umbră subtila */
+
+}
+#butonAnulare:hover{
+    -fx-background-color: linear-gradient(to bottom right, #1cb9d4, #4787bf);
+
+}
+
+#butonSalvare{
+    -fx-border-width: .3px;
+    -fx-background-color: linear-gradient(to bottom right, #188ba7, #306090);
+    -fx-background-radius: 15;
+    -fx-effect: dropshadow(gaussian, rgba(0, 0, 0, 0.2), 5, 0.3, 0, 2); /* Umbră subtila */
+
+}
+#butonSalvare:hover{
+    -fx-background-color: linear-gradient(to bottom right, #1cb9d4, #4787bf);
+
+}
+
+#comboBoxStareProgramare
+{
+
+    -fx-background-color: linear-gradient(to bottom right, #188ba7, #306090);
+    -fx-effect: dropshadow(gaussian, rgba(0, 0, 0, 0.2), 5, 0.3, 0, 2); /* Umbră subtila */
+    -fx-background-radius: 15;
+}
+#comboBoxStareProgramare:hover
+{
+    -fx-background-color: linear-gradient(to bottom right, #1cb9d4, #4787bf);
+
+}

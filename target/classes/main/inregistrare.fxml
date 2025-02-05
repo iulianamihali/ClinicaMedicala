@@ -1,0 +1,57 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.Button?>
+<?import javafx.scene.control.ChoiceBox?>
+<?import javafx.scene.control.DatePicker?>
+<?import javafx.scene.control.Label?>
+<?import javafx.scene.control.PasswordField?>
+<?import javafx.scene.control.TextField?>
+<?import javafx.scene.layout.AnchorPane?>
+<?import javafx.scene.text.Font?>
+<?import javafx.scene.text.Text?>
+
+<AnchorPane prefHeight="500.0" prefWidth="750.0" stylesheets="@../css/inregistrare.css" xmlns="http://javafx.com/javafx/23.0.1" xmlns:fx="http://javafx.com/fxml/1" fx:controller="controllers.InregistrareController">
+   <children>
+      <AnchorPane layoutX="-1.0" prefHeight="500.0" prefWidth="750.0" style="-fx-background-color: #A4C8E1;">
+         <children>
+            <TextField fx:id="nume" layoutX="106.0" layoutY="135.0" prefHeight="26.0" prefWidth="158.0" promptText="Nume" AnchorPane.topAnchor="135.0" />
+            <Label layoutX="288.0" layoutY="32.0" text="INREGISTREAZA-TE">
+               <font>
+                  <Font name="Times New Roman Bold" size="18.0" />
+               </font>
+            </Label>
+            <TextField fx:id="prenume" layoutX="106.0" layoutY="180.0" prefHeight="26.0" prefWidth="158.0" promptText="Prenume" AnchorPane.topAnchor="180.0" />
+            <DatePicker fx:id="dataNasterii" layoutX="106.0" layoutY="225.0" prefHeight="26.0" prefWidth="158.0" promptText="Data Nasterii" />
+            <TextField fx:id="gen" layoutX="106.0" layoutY="270.0" prefHeight="26.0" prefWidth="158.0" promptText="Gen" />
+            <TextField fx:id="adresa" layoutX="106.0" layoutY="315.0" prefHeight="26.0" prefWidth="158.0" promptText="Adresa" />
+            <TextField fx:id="email" layoutX="106.0" layoutY="360.0" prefHeight="26.0" prefWidth="158.0" promptText="Email" />
+            <PasswordField fx:id="parola" layoutX="106.0" layoutY="405.0" prefHeight="26.0" prefWidth="158.0" promptText="Parola" />
+            <TextField fx:id="telefon" layoutX="106.0" layoutY="442.0" prefHeight="26.0" prefWidth="158.0" promptText="Telefon" AnchorPane.topAnchor="442.0" />
+            <TextField fx:id="cnp" layoutX="492.0" layoutY="91.0" prefHeight="26.0" prefWidth="158.0" promptText="CNP" AnchorPane.bottomAnchor="383.4" AnchorPane.topAnchor="91.0" />
+            <TextField fx:id="seria" layoutX="492.0" layoutY="135.0" prefHeight="26.0" prefWidth="158.0" promptText="Seria" />
+            <TextField fx:id="facultate" layoutX="492.0" layoutY="180.0" prefHeight="26.0" prefWidth="158.0" promptText="Facultate" />
+            <TextField fx:id="specializare" layoutX="492.0" layoutY="225.0" prefHeight="26.0" prefWidth="158.0" promptText="Specializare" />
+            <TextField fx:id="aniExp" layoutX="492.0" layoutY="270.0" prefHeight="26.0" prefWidth="158.0" promptText="Ani experienta" />
+            <TextField fx:id="programInceput" layoutX="492.0" layoutY="315.0" prefHeight="26.0" prefWidth="158.0" promptText="Program inceput" />
+            <TextField fx:id="programFinal" layoutX="492.0" layoutY="360.0" prefHeight="26.0" prefWidth="158.0" promptText="Program final" />
+            <TextField fx:id="descriere" layoutX="492.0" layoutY="405.0" prefHeight="26.0" prefWidth="158.0" promptText="Descriere" />
+            <Button fx:id="butonTrimite" layoutX="492.0" layoutY="453.0" mnemonicParsing="false" onAction="#trimiteDate" prefHeight="26.0" prefWidth="158.0" text="Trimite">
+               <font>
+                  <Font name="Times New Roman Bold" size="16.0" />
+               </font>
+            </Button>
+            <ChoiceBox fx:id="rolInregistrare" layoutX="105.0" layoutY="91.0" onAction="#alegeRolInregistrare" prefHeight="26.0" prefWidth="158.0" style="-fx-background-color: #EABFBF; -fx-background-radius: 15;" />
+            <Button fx:id="butonInapoi" layoutX="7.0" layoutY="27.0" mnemonicParsing="false" onAction="#inapoi" prefHeight="30.0" prefWidth="107.0" text="&lt;  Inapoi">
+               <font>
+                  <Font name="Times New Roman Bold" size="16.0" />
+               </font>
+            </Button>
+            <Text fx:id="textValidare" fill="#ff0303" layoutX="283.0" layoutY="462.0" strokeType="OUTSIDE" strokeWidth="0.0" text="Introduce date valide!" wrappingWidth="190.63555908203125">
+               <font>
+                  <Font name="Times New Roman Bold" size="18.0" />
+               </font>
+            </Text>
+         </children>
+      </AnchorPane>
+   </children>
+</AnchorPane>

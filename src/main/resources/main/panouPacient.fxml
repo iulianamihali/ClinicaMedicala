@@ -1,0 +1,57 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.Button?>
+<?import javafx.scene.control.DatePicker?>
+<?import javafx.scene.control.Label?>
+<?import javafx.scene.control.TableColumn?>
+<?import javafx.scene.control.TableView?>
+<?import javafx.scene.image.Image?>
+<?import javafx.scene.image.ImageView?>
+<?import javafx.scene.layout.AnchorPane?>
+<?import javafx.scene.layout.BorderPane?>
+<?import javafx.scene.text.Font?>
+
+<AnchorPane fx:id="anchorScena" prefHeight="400.0" prefWidth="600.0" stylesheets="@../css/panouPacient.css" xmlns="http://javafx.com/javafx/23.0.1" xmlns:fx="http://javafx.com/fxml/1" fx:controller="controllers.PanouPacientController">
+   <children>
+      <AnchorPane fx:id="innerAnchor" prefHeight="200.0" prefWidth="580.0" BorderPane.alignment="CENTER">
+         <children>
+            <AnchorPane layoutX="13.0" prefHeight="124.0" prefWidth="553.0">
+               <children>
+                  <AnchorPane fx:id="chenar" layoutX="165.0" layoutY="5.0" prefHeight="114.0" prefWidth="223.0">
+                     <children>
+                        <Label fx:id="specializareDoctor" layoutX="112.0" layoutY="85.0" prefHeight="19.0" prefWidth="105.0" wrapText="true">
+                           <font>
+                              <Font name="Times New Roman Bold" size="16.0" />
+                           </font>
+                        </Label>
+                        <Label fx:id="helpLabel" layoutX="8.0" layoutY="-10.0" prefHeight="48.0" prefWidth="169.0" text="Ai nevoie de ajutor?" />
+                        <Button fx:id="butonGhid" layoutX="14.0" layoutY="70.0" mnemonicParsing="false" onAction="#clickGhid" prefHeight="30.0" prefWidth="134.0" text="Ghid Pas cu Pas" />
+                        <Label fx:id="subtitlu" layoutX="8.0" layoutY="27.0" prefHeight="42.0" prefWidth="193.0" text="Apasă pe butonul de mai jos." wrapText="true" />
+                     </children>
+                  </AnchorPane>
+               </children></AnchorPane>
+            <AnchorPane layoutX="15.0" layoutY="163.0" prefHeight="290.0" prefWidth="555.0">
+               <children>
+                  <TableView fx:id="tabelPacient" layoutY="3.0" prefHeight="284.0" prefWidth="558.0">
+                     <columns>
+                        <TableColumn fx:id="numeMedic" prefWidth="120.79998779296875" text="Medic" />
+                        <TableColumn fx:id="oraProgramarii" prefWidth="60.800048828125" text="Ora" />
+                        <TableColumn fx:id="locatie" prefWidth="173.5999755859375" text="Locație" />
+                        <TableColumn fx:id="specialitate" prefWidth="102.4000244140625" text="Specialitate" />
+                        <TableColumn fx:id="stare" prefWidth="104.79998779296875" text="Stare" />
+                     </columns>
+                  </TableView>
+               </children>
+            </AnchorPane>
+            <DatePicker fx:id="datePicker" layoutX="439.0" layoutY="137.0" onAction="#alegeData" prefHeight="22.0" prefWidth="133.0" />
+            <Label fx:id="textProgramari" layoutX="36.0" layoutY="129.0" text="Programările din" />
+            <Label fx:id="data" layoutX="151.0" layoutY="128.0" prefHeight="41.0" prefWidth="134.0" text="data" />
+            <ImageView fitHeight="19.0" fitWidth="20.0" layoutX="13.0" layoutY="140.0" pickOnBounds="true" preserveRatio="true">
+               <image>
+                  <Image url="@../img/calendarPanou.png" />
+               </image>
+            </ImageView>
+         </children>
+      </AnchorPane>
+   </children>
+</AnchorPane>

@@ -1,0 +1,182 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.Button?>
+<?import javafx.scene.control.ComboBox?>
+<?import javafx.scene.control.Label?>
+<?import javafx.scene.control.TextArea?>
+<?import javafx.scene.control.TextField?>
+<?import javafx.scene.image.Image?>
+<?import javafx.scene.image.ImageView?>
+<?import javafx.scene.layout.AnchorPane?>
+<?import javafx.scene.text.Font?>
+<?import javafx.scene.text.Text?>
+
+<AnchorPane maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="500.0" prefWidth="750.0" stylesheets="@../css/editareProgramareDeMedic.css" xmlns="http://javafx.com/javafx/23.0.1" xmlns:fx="http://javafx.com/fxml/1" fx:controller="controllers.EditareProgramareDeMedicController">
+   <children>
+      <Label layoutX="142.0" layoutY="39.0" text="Editare Fișă Medicală">
+         <font>
+            <Font name="Times New Roman Bold" size="20.0" />
+         </font>
+      </Label>
+      <ImageView fitHeight="32.0" fitWidth="47.0" layoutX="343.0" layoutY="35.0" pickOnBounds="true" preserveRatio="true">
+         <image>
+            <Image url="@../img/fisaMedicalaEditare1.png" />
+         </image>
+      </ImageView>
+      <AnchorPane layoutX="470.0" layoutY="-1.0" prefHeight="501.0" prefWidth="280.0" style="-fx-background-color: #EABFBF;">
+         <children>
+            <Label layoutX="25.0" layoutY="111.0" text="Nume:">
+               <font>
+                  <Font name="Times New Roman" size="18.0" />
+               </font>
+            </Label>
+            <Label fx:id="numePacient" layoutX="102.0" layoutY="111.0" prefHeight="20.0" prefWidth="174.0" text="Nume pacient">
+               <font>
+                  <Font name="Times New Roman" size="18.0" />
+               </font>
+            </Label>
+            <Label layoutX="25.0" layoutY="146.0" text="Prenume:">
+               <font>
+                  <Font name="Times New Roman" size="18.0" />
+               </font>
+            </Label>
+            <Label fx:id="prenumePacient" layoutX="102.0" layoutY="146.0" prefHeight="20.0" prefWidth="174.0" text="Prenume pacient">
+               <font>
+                  <Font name="Times New Roman" size="18.0" />
+               </font>
+            </Label>
+            <Label layoutX="25.0" layoutY="181.0" text="Gen:">
+               <font>
+                  <Font name="Times New Roman" size="18.0" />
+               </font>
+            </Label>
+            <Label fx:id="genPacient" layoutX="102.0" layoutY="181.0" prefHeight="20.0" prefWidth="174.0" text="Gen pacient">
+               <font>
+                  <Font name="Times New Roman" size="18.0" />
+               </font>
+            </Label>
+            <Label layoutX="25.0" layoutY="216.0" text="Varsta:">
+               <font>
+                  <Font name="Times New Roman" size="18.0" />
+               </font>
+            </Label>
+            <Label fx:id="varstaPacient" layoutX="102.0" layoutY="216.0" prefHeight="20.0" prefWidth="174.0" text="Varsta pacient">
+               <font>
+                  <Font name="Times New Roman" size="18.0" />
+               </font>
+            </Label>
+            <Label layoutX="25.0" layoutY="251.0" text="Data N:">
+               <font>
+                  <Font name="Times New Roman" size="18.0" />
+               </font>
+            </Label>
+            <Label fx:id="dataNPacient" layoutX="102.0" layoutY="251.0" prefHeight="20.0" prefWidth="174.0" text="Data pacient">
+               <font>
+                  <Font name="Times New Roman" size="18.0" />
+               </font>
+            </Label>
+            <Label layoutX="25.0" layoutY="286.0" text="Email:">
+               <font>
+                  <Font name="Times New Roman" size="18.0" />
+               </font>
+            </Label>
+            <Label fx:id="emailPacient" layoutX="80.0" layoutY="286.0" prefHeight="20.0" prefWidth="196.0" text="pacient@yahoo.com">
+               <font>
+                  <Font name="Times New Roman" size="18.0" />
+               </font>
+            </Label>
+            <Label layoutX="25.0" layoutY="321.0" text="Telefon:">
+               <font>
+                  <Font name="Times New Roman" size="18.0" />
+               </font>
+            </Label>
+            <Label fx:id="telefonPacient" layoutX="102.0" layoutY="321.0" prefHeight="20.0" prefWidth="174.0" text="nr telefon">
+               <font>
+                  <Font name="Times New Roman" size="18.0" />
+               </font>
+            </Label>
+            <Label layoutX="25.0" layoutY="356.0" text="CNP:">
+               <font>
+                  <Font name="Times New Roman" size="18.0" />
+               </font>
+            </Label>
+            <Label fx:id="cnpPacient" layoutX="102.0" layoutY="356.0" prefHeight="20.0" prefWidth="173.0" text="cnp CI">
+               <font>
+                  <Font name="Times New Roman" size="18.0" />
+               </font>
+            </Label>
+            <Label layoutX="25.0" layoutY="391.0" text="Seria:">
+               <font>
+                  <Font name="Times New Roman" size="18.0" />
+               </font>
+            </Label>
+            <Label fx:id="seriaPacient" layoutX="102.0" layoutY="391.0" prefHeight="20.0" prefWidth="174.0" text="seria CI">
+               <font>
+                  <Font name="Times New Roman" size="18.0" />
+               </font>
+            </Label>
+            <Text layoutX="73.0" layoutY="54.0" strokeType="OUTSIDE" strokeWidth="0.0" text="Detalii Pacient">
+               <font>
+                  <Font name="Times New Roman Bold" size="20.0" />
+               </font>
+            </Text>
+            <ImageView fitHeight="75.0" fitWidth="70.0" layoutX="209.0" layoutY="432.0" pickOnBounds="true" preserveRatio="true">
+               <image>
+                  <Image url="@../img/fisaMedicalaEditare.png" />
+               </image>
+            </ImageView>
+         </children>
+      </AnchorPane>
+      <Label layoutX="54.0" layoutY="168.0" text="Diagnostic:">
+         <font>
+            <Font name="Times New Roman" size="20.0" />
+         </font>
+      </Label>
+      <Label layoutX="54.0" layoutY="88.0" text="Simptome:">
+         <font>
+            <Font name="Times New Roman" size="20.0" />
+         </font>
+      </Label>
+      <TextArea fx:id="simptomeField" layoutX="172.0" layoutY="88.0" prefHeight="66.0" prefWidth="260.0" promptText="Simptome Pacient" />
+      <Label layoutX="54.0" layoutY="248.0" prefWidth="125.0" text="Rezultate Analize:" wrapText="true">
+         <font>
+            <Font name="Times New Roman" size="20.0" />
+         </font>
+      </Label>
+      <TextArea fx:id="diagnosticField" layoutX="172.0" layoutY="168.0" prefHeight="66.0" prefWidth="260.0" promptText="Diagnostic Pacient" />
+      <TextArea fx:id="rezultateField" layoutX="172.0" layoutY="248.0" prefHeight="66.0" prefWidth="260.0" promptText="Rezultate Analize Pacient" />
+      <Label layoutX="54.0" layoutY="328.0" text="Tratament:">
+         <font>
+            <Font name="Times New Roman" size="20.0" />
+         </font>
+      </Label>
+      <TextArea fx:id="tratamentField" layoutX="172.0" layoutY="328.0" prefHeight="66.0" prefWidth="260.0" promptText="Tratament Pacient" />
+      <Button fx:id="butonAnulare" layoutX="52.0" layoutY="453.0" mnemonicParsing="false" onAction="#anulare" text="Anulare">
+         <font>
+            <Font name="Times New Roman Bold" size="18.0" />
+         </font>
+      </Button>
+      <Button fx:id="butonSalvare" layoutX="359.0" layoutY="453.0" mnemonicParsing="false" onAction="#salvare" text="Salvare">
+         <font>
+            <Font name="Times New Roman Bold" size="18.0" />
+         </font>
+      </Button>
+      <TextField fx:id="cost" layoutX="172.0" layoutY="408.0" promptText="Cost Total" />
+      <Label layoutX="54.0" layoutY="408.0" text="Cost:">
+         <font>
+            <Font name="Times New Roman" size="20.0" />
+         </font>
+      </Label>
+      <Label layoutX="54.0" layoutY="6.0" text="Modificare:">
+         <font>
+            <Font name="Times New Roman" size="14.0" />
+         </font>
+      </Label>
+      <Label fx:id="ultimaModificare" layoutX="127.0" layoutY="4.0" prefHeight="20.0" prefWidth="174.0">
+         <font>
+            <Font name="Times New Roman" size="14.0" />
+         </font>
+      </Label>
+      <ComboBox fx:id="comboBoxStareProgramare" layoutX="184.0" layoutY="456.0" prefHeight="20.0" prefWidth="125.0" />
+   </children>
+</AnchorPane>

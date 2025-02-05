@@ -1,0 +1,42 @@
+#cardMedic{
+    -fx-border-color: white;
+    -fx-effect: dropshadow(gaussian, rgba(0, 0, 0, 0.2), 5, 0.3, 0, 2);
+
+}
+#numeMedicCard
+{
+    -fx-text-fill : linear-gradient(to bottom right, #c48484, #a06060);
+}
+#specialitateMedicCard{
+    -fx-text-fill : linear-gradient(to bottom right, #c48484, #a06060);
+}
+#textDr
+{
+    -fx-text-fill : linear-gradient(to bottom right, #c48484, #a06060);
+
+}
+#detaliiMedic {
+    -fx-background-color: linear-gradient(to bottom right, #c48484, #a06060);
+    -fx-background-radius: 45;
+    -fx-border-radius: 45; /* Rotunjim bordura */
+    -fx-effect: dropshadow(gaussian, rgba(0, 0, 0, 0.2), 5, 0.3, 0, 2);
+}
+
+#detaliiMedic:hover {
+    -fx-background-color: linear-gradient(to bottom right, #dbaaaa, #c48787);
+    -fx-border-radius: 45;
+    -fx-effect: dropshadow(gaussian, rgba(0, 0, 0, 0.3), 6, 0.4, 0, 3);
+    -fx-cursor: hand;
+}
+#butonSolicitaProgramare
+{
+    -fx-background-color:  linear-gradient(to bottom right, #c48484, #a06060);;
+    -fx-background-radius: 45;
+    -fx-effect: dropshadow(gaussian, rgba(0, 0, 0, 0.2), 5, 0.3, 0, 2);
+}
+#butonSolicitaProgramare:hover {
+    -fx-background-color: linear-gradient(to bottom right, #dbaaaa, #c48787);
+    -fx-border-radius: 45;
+    -fx-effect: dropshadow(gaussian, rgba(0, 0, 0, 0.3), 6, 0.4, 0, 3);
+    -fx-cursor: hand;
+}

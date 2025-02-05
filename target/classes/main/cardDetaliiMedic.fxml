@@ -1,0 +1,64 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.Button?>
+<?import javafx.scene.control.Label?>
+<?import javafx.scene.control.TextArea?>
+<?import javafx.scene.image.ImageView?>
+<?import javafx.scene.layout.AnchorPane?>
+<?import javafx.scene.text.Font?>
+
+<AnchorPane fx:id="detaliiMedic" prefHeight="500.0" prefWidth="750.0" stylesheets="@../css/cardDetaliiMedic.css" xmlns="http://javafx.com/javafx/23.0.1" xmlns:fx="http://javafx.com/fxml/1" fx:controller="controllers.CardDetaliiMedicController">
+   <children>
+      <Button fx:id="butonInapoi" layoutX="28.0" layoutY="24.0" mnemonicParsing="false" onAction="#clickButonInapoi" text="&lt;   Inapoi">
+         <font>
+            <Font name="Times New Roman Bold" size="16.5" />
+         </font>
+      </Button>
+      <Label fx:id="numeMedic" layoutX="290.0" layoutY="39.0" prefHeight="54.0" prefWidth="299.0" text="Nume" wrapText="true">
+         <font>
+            <Font name="Times New Roman Bold" size="25.0" />
+         </font>
+      </Label>
+      <Label fx:id="specialitate" layoutX="150.0" layoutY="107.0" prefHeight="20.0" prefWidth="279.0" text="Specialitate">
+         <font>
+            <Font name="Times New Roman Bold" size="20.0" />
+         </font>
+      </Label>
+      <TextArea fx:id="descriere" editable="false" layoutX="150.0" layoutY="170.0" prefHeight="106.0" prefWidth="500.0" promptText="Descriere" wrapText="true">
+         <font>
+            <Font name="Times New Roman" size="17.0" />
+         </font>
+      </TextArea>
+      <Label fx:id="aniExp" layoutX="150.0" layoutY="297.0" prefHeight="23.0" prefWidth="142.0" text="Ani Experienta:">
+         <font>
+            <Font name="Times New Roman Bold" size="20.0" />
+         </font>
+      </Label>
+      <Label fx:id="aniExp" layoutX="309.0" layoutY="297.0" prefHeight="23.0" prefWidth="142.0" text="nr">
+         <font>
+            <Font name="Times New Roman" size="20.0" />
+         </font>
+      </Label>
+      <Label fx:id="programLucru" layoutX="150.0" layoutY="354.0" prefHeight="23.0" prefWidth="135.0" text="Program lucru:">
+         <font>
+            <Font name="Times New Roman Bold" size="20.0" />
+         </font>
+      </Label>
+      <Label fx:id="programLucru" layoutX="307.0" layoutY="354.0" prefHeight="23.0" prefWidth="135.0" text="program">
+         <font>
+            <Font name="Times New Roman" size="20.0" />
+         </font>
+      </Label>
+      <Label fx:id="facultate" layoutX="150.0" layoutY="411.0" prefHeight="23.0" prefWidth="90.0" text="Facultate:">
+         <font>
+            <Font name="Times New Roman Bold" size="20.0" />
+         </font>
+      </Label>
+      <Label fx:id="facultate" layoutX="307.0" layoutY="386.0" prefHeight="98.0" prefWidth="430.0" text="Label">
+         <font>
+            <Font name="Times New Roman" size="20.0" />
+         </font>
+      </Label>
+      <ImageView fx:id="imgDoctor" fitHeight="59.0" fitWidth="69.0" layoutX="581.0" layoutY="36.0" pickOnBounds="true" preserveRatio="true" />
+   </children>
+</AnchorPane>

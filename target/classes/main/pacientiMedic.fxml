@@ -1,0 +1,75 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.Label?>
+<?import javafx.scene.control.TableColumn?>
+<?import javafx.scene.control.TableView?>
+<?import javafx.scene.control.TextField?>
+<?import javafx.scene.image.Image?>
+<?import javafx.scene.image.ImageView?>
+<?import javafx.scene.layout.AnchorPane?>
+<?import javafx.scene.layout.BorderPane?>
+<?import javafx.scene.text.Font?>
+
+<AnchorPane prefHeight="400.0" prefWidth="600.0" stylesheets="@../css/pacientiMedic.css" xmlns="http://javafx.com/javafx/23.0.1" xmlns:fx="http://javafx.com/fxml/1" fx:controller="controllers.PacientiMedicController">
+   <children>
+      <AnchorPane fx:id="innerAnchor" prefHeight="200.0" prefWidth="580.0" BorderPane.alignment="CENTER">
+         <children>
+            <AnchorPane layoutX="15.0" layoutY="163.0" prefHeight="290.0" prefWidth="555.0">
+               <children>
+                  <TableView fx:id="tabelPacienti" layoutY="3.0" prefHeight="284.0" prefWidth="558.0">
+                     <columns>
+                        <TableColumn fx:id="numePacient" prefWidth="174.39996337890625" text="Nume" />
+                        <TableColumn fx:id="genPacient" prefWidth="124.0" text="Gen" />
+                        <TableColumn fx:id="telefonPacient" prefWidth="144.0" text="Telefon" />
+                        <TableColumn fx:id="totalProgramari" prefWidth="119.2000732421875" text="Nr Programari" />
+                     </columns>
+                  </TableView>
+               </children>
+            </AnchorPane>
+            <TextField fx:id="cautareField" layoutX="423.0" layoutY="137.0" promptText="Caută">
+               <font>
+                  <Font name="Times New Roman" size="12.0" />
+               </font></TextField>
+         </children>
+      </AnchorPane>
+      <AnchorPane layoutX="23.0" layoutY="10.0" prefHeight="124.0" prefWidth="553.0">
+         <children>
+            <AnchorPane fx:id="chenar" layoutY="14.0" prefHeight="124.0" prefWidth="238.0">
+               <children>
+                  <Label layoutX="45.0" layoutY="23.0" text="Recenziile Pacienților">
+                     <font>
+                        <Font name="Times New Roman Bold" size="16.0" />
+                     </font>
+                  </Label>
+                  <Label fx:id="recenzii" layoutX="45.0" layoutY="81.0" prefHeight="19.0" prefWidth="23.0" text="Nr">
+                     <font>
+                        <Font name="Times New Roman Bold" size="16.0" />
+                     </font>
+                  </Label>
+                  <ImageView fx:id="imgRecenzii5" fitHeight="19.0" fitWidth="23.0" layoutX="88.0" layoutY="80.0" pickOnBounds="true" preserveRatio="true" />
+                  <Label fx:id="recenzii1" layoutX="68.0" layoutY="81.0" prefHeight="19.0" prefWidth="15.0" text="/5">
+                     <font>
+                        <Font name="Times New Roman Bold" size="16.0" />
+                     </font>
+                  </Label>
+                  <Label layoutX="45.0" layoutY="52.0" text="Total Recenzii: ">
+                     <font>
+                        <Font name="Times New Roman Bold" size="16.0" />
+                     </font>
+                  </Label>
+                  <Label fx:id="nrRecenzii" layoutX="153.0" layoutY="51.0" prefHeight="22.0" prefWidth="35.0">
+                     <font>
+                        <Font name="Times New Roman Bold" size="16.0" />
+                     </font>
+                  </Label>
+               </children>
+            </AnchorPane>
+            <ImageView fitHeight="19.0" fitWidth="23.0" layoutX="528.0" layoutY="128.0" pickOnBounds="true" preserveRatio="true">
+               <image>
+                  <Image url="@../img/search.png" />
+               </image>
+            </ImageView>
+         </children>
+      </AnchorPane>
+   </children>
+</AnchorPane>

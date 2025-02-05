@@ -1,0 +1,20 @@
+#butonLogin{
+    -fx-background-color:  #A4C8E1;
+    -fx-background-radius: 45;
+    -fx-effect: dropshadow(gaussian, rgba(0, 0, 0, 0.2), 5, 0.3, 0, 2); /* Umbră subtila */
+}
+
+#butonLogin:hover{
+    -fx-background-color: #72A0C1;
+}
+
+#butonInregistrare{
+    -fx-background-color:  #A4C8E1;
+    -fx-background-radius:  15;
+    -fx-effect: dropshadow(gaussian, rgba(0, 0, 0, 0.2), 5, 0.3, 0, 2); /* Umbră subtila */
+
+}
+
+#butonInregistrare:hover{
+    -fx-background-color: #72A0C1;
+}

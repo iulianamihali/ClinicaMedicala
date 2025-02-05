@@ -1,0 +1,47 @@
+#titlu{
+    -fx-font-family: "Arial";
+
+    -fx-background-radius: 45;
+    -fx-border-radius: 45; /* Rotunjim bordura */
+    -fx-effect: dropshadow(gaussian, rgba(0, 0, 0, 0.2), 5, 0.3, 0, 2);
+}
+
+#scenaRecenzii{
+    -fx-background-color: #e6f7ff
+}
+
+#butonAnulare, #butonSalvare{
+    -fx-background-color: linear-gradient(to bottom right, #c48484, #a06060);
+    -fx-background-radius: 45;
+    -fx-border-radius: 45; /* Rotunjim bordura */
+    -fx-effect: dropshadow(gaussian, rgba(0, 0, 0, 0.2), 5, 0.3, 0, 2);
+}
+#butonAnulare:hover{
+    -fx-background-color: linear-gradient(to bottom right, #dbaaaa, #c48787);
+    -fx-border-radius: 45;
+    -fx-effect: dropshadow(gaussian, rgba(0, 0, 0, 0.3), 6, 0.4, 0, 3);
+    -fx-cursor: hand;
+}
+#butonSalvare:hover
+{
+    -fx-background-color: linear-gradient(to bottom right, #dbaaaa, #c48787);
+    -fx-border-radius: 45;
+    -fx-effect: dropshadow(gaussian, rgba(0, 0, 0, 0.3), 6, 0.4, 0, 3);
+    -fx-cursor: hand;
+}
+#comboNota{
+    -fx-font-size: 14px;
+    -fx-font-family: "Arial";
+    -fx-padding: 5;
+    -fx-background-color: white;
+    -fx-border-color: #dbaaaa;
+    -fx-border-width: 2px;
+    -fx-border-radius: 5px;
+    -fx-background-radius: 5px;
+}
+
+#comboNota .list-cell:hover{
+    -fx-background-color: linear-gradient(to bottom right, #c48484, #a06060);
+    -fx-text-fill: white;
+}
+

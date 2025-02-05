@@ -1,0 +1,69 @@
+#numeClinica{
+        -fx-background-color: linear-gradient(to bottom right, #c48484, #a06060);
+}
+
+#butonPanouPacient{
+    -fx-border-color: #000000 ;
+    -fx-border-width: .3px;
+    -fx-background-color:  #EABFBF;
+    -fx-effect: dropshadow(gaussian, rgba(0, 0, 0, 0.2), 5, 0.3, 0, 2); /* Umbră subtila */
+}
+#butonPanouPacient:hover{
+    -fx-background-color: #D89A9A;
+    -fx-border-color: #A06060;
+    -fx-effect: dropshadow(gaussian, rgba(0, 0, 0, 0.3), 6, 0.4, 0, 3);
+    -fx-cursor: hand;
+}
+
+#butonMedici{
+    -fx-border-color: #000000 ;
+    -fx-border-width: .3px;
+    -fx-background-color:  #EABFBF;
+    -fx-effect: dropshadow(gaussian, rgba(0, 0, 0, 0.2), 5, 0.3, 0, 2); /* Umbră subtila */
+}
+#butonMedici:hover
+{
+    -fx-background-color: #D89A9A;
+    -fx-border-color: #A06060;
+    -fx-effect: dropshadow(gaussian, rgba(0, 0, 0, 0.3), 6, 0.4, 0, 3);
+    -fx-cursor: hand;
+}
+
+#butonIstoricPacient{
+    -fx-border-color: #000000 ;
+    -fx-border-width: .3px;
+    -fx-background-color:  #EABFBF;
+    -fx-effect: dropshadow(gaussian, rgba(0, 0, 0, 0.2), 5, 0.3, 0, 2); /* Umbră subtila */
+}
+#butonIstoricPacient:hover{
+    -fx-background-color: #D89A9A;
+    -fx-border-color: #A06060;
+    -fx-effect: dropshadow(gaussian, rgba(0, 0, 0, 0.3), 6, 0.4, 0, 3);
+    -fx-cursor: hand;
+}
+
+#butonProfilPacient{
+    -fx-border-color: #000000 ;
+    -fx-border-width: .3px;
+    -fx-background-color:  #EABFBF;
+    -fx-effect: dropshadow(gaussian, rgba(0, 0, 0, 0.2), 5, 0.3, 0, 2); /* Umbră subtila */
+}
+#butonProfilPacient:hover{
+    -fx-background-color: #D89A9A;
+    -fx-border-color: #A06060;
+    -fx-effect: dropshadow(gaussian, rgba(0, 0, 0, 0.3), 6, 0.4, 0, 3);
+    -fx-cursor: hand;
+}
+
+#butonDeconectarePacient{
+    -fx-border-color: #000000 ;
+    -fx-border-width: .3px;
+    -fx-background-color:  #EABFBF;
+    -fx-effect: dropshadow(gaussian, rgba(0, 0, 0, 0.2), 5, 0.3, 0, 2); /* Umbră subtila */
+}
+#butonDeconectarePacient:hover{
+    -fx-background-color: #D89A9A;
+    -fx-border-color: #A06060;
+    -fx-effect: dropshadow(gaussian, rgba(0, 0, 0, 0.3), 6, 0.4, 0, 3);
+    -fx-cursor: hand;
+}
